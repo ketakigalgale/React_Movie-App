@@ -1,4 +1,10 @@
-
+{
+  "homepage": "https://ketakigalgale.github.io/React_Movie-App",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  }
+}
 {
   "name": "frontend-movie",
   "private": true,
